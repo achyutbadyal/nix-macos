@@ -4,8 +4,8 @@
   home.username = "achyutbadyal";
   home.homeDirectory = "/Users/achyutbadyal";
   home.stateVersion = "24.05";
+  nixpkgs.config.allowUnfree = true;
 
-  # Let Home Manager install and manage itself
   programs.home-manager.enable = true;
 
   home.packages = with pkgs; [
@@ -25,11 +25,14 @@
     neovim
     tmux
     mole-cleaner
+    claude-code
 
     # --- macOS GUI Apps & Tiling Window Manager ---
     aerospace
     insomnia
     kitty
     localsend
+    pdfcraft
+    sol
   ];
 }

@@ -1,0 +1,8 @@
+[sol]
+src.github = "ospfranco/sol"
+fetch.url = "https://github.com/ospfranco/sol/releases/download/$ver/$ver.zip"
+
+[pdfcraft]
+src.github = "storytold/pdfcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/pdfcraft/releases/download/v$ver/pdfcraft-$ver-macos-universal.dmg"

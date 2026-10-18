@@ -1,0 +1,19 @@
+[tasks.check]
+description = "Evaluate the flake"
+run = "nix flake check --no-build"
+
+[tasks.build]
+description = "Build the Home Manager generation"
+run = "nix build .#homeConfigurations.achyutbadyal.activationPackage"
+
+[tasks.switch]
+description = "Apply the Home Manager configuration"
+run = "home-manager switch --flake .#achyutbadyal"
+
+[tasks.update]
+description = "Update flake inputs"
+run = "nix flake update"
+
+[tasks.sources]
+description = "Update nvfetcher sources"
+run = "nix run nixpkgs#nvfetcher"
