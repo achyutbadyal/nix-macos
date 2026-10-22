@@ -30,9 +30,9 @@
     # --- macOS GUI Apps & Tiling Window Manager ---
     aerospace
     insomnia
-    kitty
+    ghostty-bin
     localsend
     pdfcraft
-    sol
+    tinycast
   ];
 }

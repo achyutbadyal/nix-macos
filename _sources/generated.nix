@@ -8,10 +8,10 @@
 {
   pdfcraft = {
     pname = "pdfcraft";
-    version = "0.9.0";
+    version = "0.11.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.9.0/pdfcraft-0.9.0-macos-universal.dmg";
-      sha256 = "sha256-EWc4BFpoRj6xpGXm6u8iZpAqrGmqGhXkocFHLDHYq+k=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-macos-universal.dmg";
+      sha256 = "sha256-h3TfMqTdw1YCmxM9fYYO1HI8louLAY4gYrOdoPsF51I=";
     };
   };
   sol = {
@@ -20,6 +20,14 @@
     src = fetchurl {
       url = "https://github.com/ospfranco/sol/releases/download/2.1.364/2.1.364.zip";
       sha256 = "sha256-AV8rrpSWite1zoN+5GRVBfctq+yDZVkY1Y7ociwFH/8=";
+    };
+  };
+  tinycast = {
+    pname = "tinycast";
+    version = "0.12.1";
+    src = fetchurl {
+      url = "https://github.com/abue-ammar/tinycast/releases/download/v0.12.1/Tinycast-0.12.1.dmg";
+      sha256 = "sha256-6dPaLAobs7gTzkHM5Sk0+9B8BJQWic9Ojli6MoT3lsU=";
     };
   };
 }

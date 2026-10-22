@@ -6,3 +6,8 @@ fetch.url = "https://github.com/ospfranco/sol/releases/download/$ver/$ver.zip"
 src.github = "storytold/pdfcraft"
 src.prefix = "v"
 fetch.url = "https://github.com/storytold/pdfcraft/releases/download/v$ver/pdfcraft-$ver-macos-universal.dmg"
+
+[tinycast]
+src.github = "abue-ammar/tinycast"
+src.prefix = "v"
+fetch.url = "https://github.com/abue-ammar/tinycast/releases/download/v$ver/Tinycast-$ver.dmg"

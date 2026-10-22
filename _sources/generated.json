@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-EWc4BFpoRj6xpGXm6u8iZpAqrGmqGhXkocFHLDHYq+k=",
+            "sha256": "sha256-h3TfMqTdw1YCmxM9fYYO1HI8louLAY4gYrOdoPsF51I=",
             "type": "url",
-            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.9.0/pdfcraft-0.9.0-macos-universal.dmg"
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-macos-universal.dmg"
         },
-        "version": "0.9.0"
+        "version": "0.11.0"
     },
     "sol": {
         "cargoLock": null,
@@ -28,5 +28,20 @@
             "url": "https://github.com/ospfranco/sol/releases/download/2.1.364/2.1.364.zip"
         },
         "version": "2.1.364"
+    },
+    "tinycast": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "tinycast",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-6dPaLAobs7gTzkHM5Sk0+9B8BJQWic9Ojli6MoT3lsU=",
+            "type": "url",
+            "url": "https://github.com/abue-ammar/tinycast/releases/download/v0.12.1/Tinycast-0.12.1.dmg"
+        },
+        "version": "0.12.1"
     }
 }
