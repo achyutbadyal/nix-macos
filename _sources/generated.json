@@ -1,4 +1,19 @@
 {
+    "ardia": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "ardia",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-v75Qgo2Cvvtqa5M8lPetIPuCYJntNwhUgL6oU+ZQimA=",
+            "type": "url",
+            "url": "https://github.com/mantrakp04/ardia/releases/download/v0.2.40/Ardia-0.2.40.dmg"
+        },
+        "version": "0.2.40"
+    },
     "pdfcraft": {
         "cargoLock": null,
         "date": null,
@@ -8,11 +23,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-h3TfMqTdw1YCmxM9fYYO1HI8louLAY4gYrOdoPsF51I=",
+            "sha256": "sha256-x615T+s9i1E83EAtTq1zAjtAjEI9CBj2SS2c8R8cBzM=",
             "type": "url",
-            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-macos-universal.dmg"
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.13.0/pdfcraft-0.13.0-macos-universal.dmg"
         },
-        "version": "0.11.0"
+        "version": "0.13.0"
     },
     "sol": {
         "cargoLock": null,

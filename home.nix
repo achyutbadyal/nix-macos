@@ -34,5 +34,6 @@
     localsend
     pdfcraft
     tinycast
+    ardia
   ];
 }

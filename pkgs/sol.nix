@@ -8,6 +8,9 @@ stdenvNoCC.mkDerivation {
   # Prevents stdenv from attempting to cd into an extracted subfolder
   sourceRoot = ".";
 
+  # Keep prebuilt signature intact (no shebang rewriting).
+  dontFixup = true;
+
   installPhase = ''
     runHook preInstall
 

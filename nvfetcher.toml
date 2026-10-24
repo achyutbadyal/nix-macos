@@ -11,3 +11,9 @@ fetch.url = "https://github.com/storytold/pdfcraft/releases/download/v$ver/pdfcr
 src.github = "abue-ammar/tinycast"
 src.prefix = "v"
 fetch.url = "https://github.com/abue-ammar/tinycast/releases/download/v$ver/Tinycast-$ver.dmg"
+
+[ardia]
+src.github = "mantrakp04/ardia"
+src.prerelease = true
+src.prefix = "v"
+fetch.url = "https://github.com/mantrakp04/ardia/releases/download/v$ver/Ardia-$ver.dmg"

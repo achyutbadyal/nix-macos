@@ -7,6 +7,9 @@ stdenvNoCC.mkDerivation {
   nativeBuildInputs = [ _7zz ];
   sourceRoot = ".";
 
+  # Keep prebuilt signature intact (no shebang rewriting).
+  dontFixup = true;
+
   installPhase = ''
     runHook preInstall
 
