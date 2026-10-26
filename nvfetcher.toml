@@ -13,7 +13,8 @@ src.prefix = "v"
 fetch.url = "https://github.com/abue-ammar/tinycast/releases/download/v$ver/Tinycast-$ver.dmg"
 
 [ardia]
-src.github = "mantrakp04/ardia"
-src.prerelease = true
+# Track nightlies via tags: nixpkgs nvfetcher is still 0.8.0 (no src.prerelease).
+src.github_tag = "mantrakp04/ardia"
+src.include_regex = "v?[0-9.]+-nightly\\.[0-9]+"
 src.prefix = "v"
 fetch.url = "https://github.com/mantrakp04/ardia/releases/download/v$ver/Ardia-$ver.dmg"

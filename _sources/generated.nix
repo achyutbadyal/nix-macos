@@ -8,18 +8,18 @@
 {
   ardia = {
     pname = "ardia";
-    version = "0.2.40";
+    version = "0.2.41-nightly.6";
     src = fetchurl {
-      url = "https://github.com/mantrakp04/ardia/releases/download/v0.2.40/Ardia-0.2.40.dmg";
-      sha256 = "sha256-v75Qgo2Cvvtqa5M8lPetIPuCYJntNwhUgL6oU+ZQimA=";
+      url = "https://github.com/mantrakp04/ardia/releases/download/v0.2.41-nightly.6/Ardia-0.2.41-nightly.6.dmg";
+      sha256 = "sha256-m/AIBSa5j3eW0Sb9VTr4xDGD06ZYYpNGYPLqTLnN+vs=";
     };
   };
   pdfcraft = {
     pname = "pdfcraft";
-    version = "0.13.0";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.13.0/pdfcraft-0.13.0-macos-universal.dmg";
-      sha256 = "sha256-x615T+s9i1E83EAtTq1zAjtAjEI9CBj2SS2c8R8cBzM=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-macos-universal.dmg";
+      sha256 = "sha256-8L3eo/DXEUcNlfcUsjzM5hw4srvMqCHTl86NuwVkz3Q=";
     };
   };
   sol = {
